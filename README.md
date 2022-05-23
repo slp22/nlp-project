@@ -1,2 +1,11 @@
-# unsupervised-project
-Unsupervised Learning &amp; Natural Language Processing
+#MadeAtMetis | Unsupervised Learning Deliverables
+
+# TBD   
+
+
+* Proposal
+* MVP
+* Slides
+* Summary
+* Model
+
