@@ -1,4 +1,4 @@
-#MadeAtMetis | Unsupervised Learning Deliverables
+#MadeAtMetis | Natural Language Processing + Unsupervised Learning Deliverables
 
 # TBD   
 
