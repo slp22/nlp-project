@@ -11,21 +11,30 @@
 
 ## Data Description
 * What dataset(s) do you plan to use, and how will you obtain the data? 
-    * 
+    * Coronavirus COVID-19 Tweets:
+        - [early April](https://www.kaggle.com/datasets/smid80/coronavirus-covid19-tweets-early-april) 
+        - [late April](https://www.kaggle.com/datasets/smid80/coronavirus-covid19-tweets-late-april)
+
 * What is an individual sample/unit of analysis in this project?
-    * 
+    * One tweet
 * What characteristics/features do you expect to work with?
-    * Demographics:
-        - `Age Category`
-        - `Race`
-        - `Sex`
-    * 
+    * Tweet characteristics:
+        - `created_at`
+        - `screen_name`
+        - `text`
+        - `country_code`
+        - `account_lang`
+        - `verified`
+        - `lang`
+    * Filtered for:
+        - `country_code` = US
+        - `lang(uage)` = English
 * If modeling, what will you predict as your target?
     *  
     
 ## Tools
 * How do you intend to meet the tools requirement of the project?
-    * Python, numpy, pandas, sklearn
+    * Python, numpy, pandas, sklearn, NLKT
     * Matplotlib, Seaborn
 * Are you planning in advance to need or use additional tools beyond those required?
     * None at this time.
