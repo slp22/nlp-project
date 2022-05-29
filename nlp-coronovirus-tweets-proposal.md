@@ -6,8 +6,7 @@
 * What is the question behind your analysis or model and what practical impact will your work have?
     * What were Americans tweeting about coronavirus and COVID-19 in April 2020? 
 * Who is your client and how will that client benefits from exploring this question or building this model/system?
-    * The [Centers for Disease Control and Prevention](https://www.cdc.gov/coronavirus/2019-ncov/index.html) wants to understand what information was spread early on during the COVID-19 pandemic on Twitter in the United States to better inform future pandemic communication efforts. 
-    
+    * To better inform future pandemic communication strategy, the [Centers for Disease Control and Prevention](https://www.cdc.gov/coronavirus/2019-ncov/index.html) want to understand what type of information spread via Twitter early on in the COVID-19 pandemic in the United States. 
 
 ## Data Description
 * What dataset(s) do you plan to use, and how will you obtain the data? 
@@ -24,7 +23,7 @@
         - `country_code`
         - `account_lang`
         - `verified`
-        - `lang`
+        - `lang(uage)`
     * Filtered for:
         - `country_code` = US
         - `lang(uage)` = English
@@ -44,9 +43,10 @@
     * Exploratory data analysis
     * Preprocess text data
         * Define corpus-specific stop words
-        * Remove punctuation, digits, special characters
-        * Stemming or lemmatization
+        * Remove punctuation, digits, special characters, convert to lowercase
+        * Stemming/lemmatization, parts of speech, named entity recognition
         * Vectorize
     * Dimension reduction/topic modeling
+        * VADER Sentiment Analysis
         * Latent Semantic Analysis
         * Non-Negative Matrix Factorization 
