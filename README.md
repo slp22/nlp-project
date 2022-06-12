@@ -7,5 +7,5 @@
 * [MVP](https://github.com/slp22/nlp-project/blob/main/nlp-coronavirus-tweets-mvp.ipynb)
 * Slides
 * Summary
-* Model
+* [Model](https://github.com/slp22/nlp-project/blob/main/nlp-coronavirus-tweets-model.ipynb)
 
